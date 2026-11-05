@@ -1,37 +1,26 @@
-# 👋 Hi, I'm Federico Sbringhetti
+# Hi, I'm Federico Sbringhetti
 
-🎓 MSc Student in Computer Engineering @ Politecnico di Torino, specializing in **Networking and Cloud Computing**  
-💼 Software Engineer Intern, working on backend security in Rust
+Software Engineer Intern at **Tonic Minds** and MSc student in Computer Engineering at **Politecnico di Torino** (Networking and Cloud Computing, graduating Nov 2026).
+I mostly write **Rust** backends with a security focus, and I'm drawn to low-level work: systems programming, embedded, kernels.
 
----
+## Featured projects
 
-## 🔭 What I'm working on
+| Project | What it is | Stack |
+|---|---|---|
+| [EuroTransit](https://github.com/g05-eurotransit/EuroTransit-application) | Cloud-native train-ticket marketplace, university capstone in a team of 5. My main area: the Orders checkout, with a Kafka workflow, transactional outbox, seat holds, dead-letter recovery and tracing | Kotlin, Spring WebFlux, Kafka, Kubernetes, Argo CD, Azure AKS |
+| [InTime](https://github.com/fedsbringhetti/gtt-personal-api) | Real-time GTT departures for Turin: an API and an installable web app, self-hosted on an ARM64 home server | Rust, SQLite, Svelte, Docker |
+| [PropFlow](https://github.com/fedsbringhetti/prop-flow) | Property-management backend shared by owners and tenants, with tenant isolation through PostgreSQL Row Level Security (in development) | Rust, Axum, SQLx, PostgreSQL |
+| [Pac-Man on LandTiger](https://github.com/fedsbringhetti/landtiger-pacman) | Bare-metal game for an ARM Cortex-M3 board, with A* ghosts, DAC audio and CAN telemetry | C, LPC1768 |
 
-- **Sanitizer** (internship and MSc thesis): a Rust (Tokio, Axum) security gateway that fetches untrusted web content and returns a sanitized version of it. My work covers detection of **indirect prompt injection** hidden in PDFs, **SSRF** hardening, browser **TLS fingerprinting** and **DNS-over-HTTPS**
-- **PropFlow**: a property-management backend in Rust (Axum, SQLx) on PostgreSQL with Row Level Security
+## At work
 
----
+**Sanitizer** (internship and MSc thesis, private): a Rust security gateway that fetches untrusted web content and returns a sanitized version of it. My work covers detection of indirect prompt injection hidden in PDFs, SSRF hardening, browser TLS fingerprinting and DNS-over-HTTPS.
 
-## 🚀 Projects
+## Running at home
 
-- **Live match Telegram bot**: Python bot that follows football matches live and pushes events to Telegram, with a FastAPI API streaming over Server-Sent Events
-- **Weather station and home server**: ESP32 station with temperature, humidity, pressure, rain and hazardous-gas sensors, feeding a self-hosted Orange Pi server that also runs a NAS
-- **[Pac-Man on LandTiger](https://github.com/fedsbringhetti/landtiger-pacman)**: embedded C game for an ARM Cortex-M3 board (LPC1768), with A\* pathfinding, DAC audio and CAN telemetry
+- A Telegram bot that follows football matches live, in production since October 2026 (Python, FastAPI, Server-Sent Events)
+- An ESP32 weather station feeding a self-hosted Orange Pi server, which also runs a NAS, InTime and the bot
 
----
+## Contact
 
-## 💻 Technical Skills
-
-**Languages:** Rust, TypeScript/JavaScript, C/C++, Python, Java, Kotlin  
-**Backend & Web:** Axum, Tokio, SQLx, Fastify, Express, FastAPI, React, Next.js, Svelte, OpenAPI  
-**Mobile & Embedded:** Android (Java/Kotlin), ESP32, Arduino, ARM Cortex-M  
-**Databases:** PostgreSQL, MySQL, MongoDB, SQLite, Redis  
-**Security:** SSRF defense, TLS, DNS-over-HTTPS, fuzzing, threat modeling (STRIDE)  
-**DevOps & Cloud:** GitHub Actions, Docker, Kubernetes, Vercel, Prometheus  
-**Tools & OS:** Linux, Bash, PowerShell, Git, SSH  
-
----
-
-## 📫 Contact
-
-[LinkedIn](https://www.linkedin.com/in/fedesbringhetti) | [Email](mailto:federicosbringhetti@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/fedesbringhetti) · [Email](mailto:federicosbringhetti@gmail.com)
